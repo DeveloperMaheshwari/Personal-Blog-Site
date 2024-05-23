@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg{
+   position: absolute;
+   top: 4rem;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: linear-gradient(rgb(236, 65, 196),rgb(57, 28, 170));
+  z-index: -1;
+  border-radius: 1.5rem;
+}
+
+.back{
+    background: linear-gradient(to top, rgb(255, 0, 136), rgb(25, 0, 255));
+}
+
+.linear-text-gradient {
+    background: linear-gradient(to top, rgb(255, 0, 136), rgb(25, 0, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.left p{
+    color: rgba(165, 161, 161, 0.727);
+}
+
+.left h1{
+    font-size: 4rem;
+}
+
+.right{
+   position: relative;
+}
+
+.pro{
+    font-size: 3.5rem;
+}
+
